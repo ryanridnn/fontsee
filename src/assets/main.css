@@ -1,0 +1,32 @@
+:root {
+	--primary: #2155cd;
+	--on-primary: #eee;
+	--light: #dbf8ff;
+	--bg: #fcfcfc;
+	--text-clr: #222;
+	--text-light-clr: #4a4a4a;
+	--text-placeholder-clr: #676767;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+	min-height: 100vh;
+}
+
+button {
+	cursor: pointer;
+}
+
+.btn-hover-effect {
+	transition: all 0.2s ease;
+}
+
+.btn-hover-effect:hover {
+	transform: scale(0.95);
+}
